@@ -2,12 +2,12 @@ namespace DinoJuegoVers
 {
     public partial class Form1 : Form
     {
-        bool saltar = false;
-        int velocidadSalto = 10;
-        int fuerza = 12;
-        int puntuaje = 0;
-        int fuerzaObstaculo = 10;
-        Random rnd = new Random();
+        bool saltar = false; // Boooleano para verificar si esta saltando o no, se usara para determinar si el dinosaurio ha saltado en el juego.
+        int velocidadSalto = 10; // Este entero establece la velocidad del salto
+        int fuerza = 12; // Fuerza del salto establecida en enteros
+        int puntuaje = 0; // Puntuaje en entero se establece desde 0
+        int fuerzaObstaculo = 10; // Velocidad en enteros en la que van los obstaculos
+        Random rnd = new Random(); // Crea una nueva clase aleatoria
 
         public Form1()
         {

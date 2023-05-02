@@ -13,7 +13,7 @@ namespace DinoJuegoVers
         {
             InitializeComponent();
 
-            resetGame();
+            resetGame(); // Función de reinicio de juego
         }
 
         private void gameEvent(object sender, EventArgs e)
@@ -75,7 +75,7 @@ namespace DinoJuegoVers
             }
         }
 
-        private void keyisdown(object sender, KeyEventArgs e)
+        private void keyisdown(object sender, KeyEventArgs e) // Si se presiona la tecla de espacio, entonces el salto se vuelve verdadero
         {
             if (e.KeyCode == Keys.Space && !saltar)
             {
